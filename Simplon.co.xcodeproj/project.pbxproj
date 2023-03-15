@@ -67,6 +67,7 @@
 				0A0B303929C0E51800C9D7A3 /* Exercise3.swift */,
 				0A0B303B29C0E7E600C9D7A3 /* Exercise4.swift */,
 				0A0B303D29C0E8E200C9D7A3 /* Exercise5.swift */,
+				0A0B304229C1CE8E00C9D7A3 /* Exercise5 */,
 				0A0B303F29C0ED3900C9D7A3 /* Exercise6.swift */,
 				0A0B302D29C0DF2300C9D7A3 /* Assets.xcassets */,
 				0A0B302F29C0DF2300C9D7A3 /* Preview Content */,
@@ -80,6 +81,13 @@
 				0A0B303029C0DF2300C9D7A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A0B304229C1CE8E00C9D7A3 /* Exercise5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercise5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

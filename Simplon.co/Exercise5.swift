@@ -8,52 +8,70 @@
 import SwiftUI
 
 struct Exercise5: View {
+    
+    @State var text = "Select a Suit"
+    @State var emoji: Array = ["♣", "♠", "♦", "♥"]
+    
     var body: some View {
         VStack {
             Spacer()
-            HStack {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25)
-                        .frame(width: 100, height: 60)
+            HStack(spacing: 50) {
                     HStack {
-                        Image(systemName: "suit.club.fill")
-                        Text("Club")
+                        Button {
+                            self.text = emoji[0]
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 25)
+                                    .frame(width: 100, height: 60)
+                            Label("Club", systemImage: "suit.club.fill")
+                                    .foregroundColor(.white)
+                        }
                     }
-                    .foregroundColor(.white)
                 }
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25)
-                        .frame(width: 130, height: 60)
+                    .foregroundColor(.black)
                     HStack {
-                        Image(systemName: "suit.spade.fill")
-                        Text("Spade")
+                        Button {
+                            self.text = emoji[1]
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 25)
+                                    .frame(width: 130, height: 60)
+                            Label("Spade", systemImage: "suit.spade.fill")
+                                    .foregroundColor(.white)
+                        }
                     }
-                    .foregroundColor(.white)
                 }
             }
+            .foregroundColor(.black)
             Spacer()
-            Text("Select a Suit")
+            Text(text)
                 .font(.title)
                 .foregroundColor(.gray)
             Spacer()
-            HStack {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25)
-                        .frame(width: 130, height: 60)
+            HStack(spacing: 50) {
                     HStack {
-                        Image(systemName: "suit.diamond.fill")
-                        Text("Diamond")
+                        Button {
+                            self.text = emoji[2]
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 25)
+                                    .frame(width: 130, height: 60)
+                            Label("Diamond", systemImage: "suit.diamond.fill")
+                                .foregroundColor(.white)
+                        }
                     }
-                    .foregroundColor(.white)
                 }
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25)
-                        .frame(width: 100, height: 60)
                     HStack {
-                        Image(systemName: "heart.fill")
-                        Text("Heart")
+                        Button {
+                            self.text = emoji[3]
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 25)
+                                    .frame(width: 100, height: 60)
+                            Label("Heart", systemImage: "heart.fill")
+                                .foregroundColor(.white)
+                        }
                     }
-                    .foregroundColor(.white)
                 }
             }
             .foregroundColor(.red)
