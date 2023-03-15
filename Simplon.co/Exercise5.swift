@@ -16,64 +16,75 @@ struct Exercise5: View {
         VStack {
             Spacer()
             HStack(spacing: 50) {
-                    HStack {
-                        Button {
-                            self.text = emoji[0]
-                        } label: {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 25)
-                                    .frame(width: 100, height: 60)
-                            Label("Club", systemImage: "suit.club.fill")
-                                    .foregroundColor(.white)
-                        }
+                // Button will be display a Club label
+                Button {
+                    self.text = emoji[0]
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25)
+                            .frame(width: 100, height: 60)
+                        Label("Club", systemImage: "suit.club.fill")
+                            .foregroundColor(.white)
                     }
                 }
-                    .foregroundColor(.black)
-                    HStack {
-                        Button {
-                            self.text = emoji[1]
-                        } label: {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 25)
-                                    .frame(width: 130, height: 60)
-                            Label("Spade", systemImage: "suit.spade.fill")
-                                    .foregroundColor(.white)
-                        }
+                // Button will be display a Spade label
+                Button {
+                    self.text = emoji[1]
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25)
+                            .frame(width: 130, height: 60)
+                        Label("Spade", systemImage: "suit.spade.fill")
+                            .foregroundColor(.white)
                     }
                 }
             }
+            // Applying color of the HStack
             .foregroundColor(.black)
             Spacer()
-            Text(text)
-                .font(.title)
-                .foregroundColor(.gray)
+            // Display the result
+            HStack(spacing: 30) {
+                Text(text)
+                    .font(.title)
+                    .foregroundColor(.gray)
+                // Button to reset to initial state
+                Button {
+                    self.text = "Select a Suit"
+                } label: {
+                    Image(systemName: "arrow.counterclockwise.circle")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.indigo)
+                }
+            }
             Spacer()
             HStack(spacing: 50) {
-                    HStack {
-                        Button {
-                            self.text = emoji[2]
-                        } label: {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 25)
-                                    .frame(width: 130, height: 60)
-                            Label("Diamond", systemImage: "suit.diamond.fill")
-                                .foregroundColor(.white)
-                        }
+                // Button will be display a Diamond label
+                Button {
+                    self.text = emoji[2]
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25)
+                            .frame(width: 130, height: 60)
+                        Label("Diamond", systemImage: "suit.diamond.fill")
+                            .foregroundColor(.white)
                     }
                 }
-                    HStack {
-                        Button {
-                            self.text = emoji[3]
-                        } label: {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 25)
-                                    .frame(width: 100, height: 60)
+                HStack {
+                    // Button will be display a Heart label
+                    Button {
+                        self.text = emoji[3]
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 25)
+                                .frame(width: 100, height: 60)
                             Label("Heart", systemImage: "heart.fill")
                                 .foregroundColor(.white)
                         }
                     }
                 }
             }
+            // Applying color of the HStack
             .foregroundColor(.red)
             Spacer()
         }
