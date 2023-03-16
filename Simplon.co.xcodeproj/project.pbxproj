@@ -16,6 +16,7 @@
 		0A0B303C29C0E7E600C9D7A3 /* Exercise4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B303B29C0E7E600C9D7A3 /* Exercise4.swift */; };
 		0A0B303E29C0E8E200C9D7A3 /* Exercise5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B303D29C0E8E200C9D7A3 /* Exercise5.swift */; };
 		0A0B304029C0ED3900C9D7A3 /* Exercise6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B303F29C0ED3900C9D7A3 /* Exercise6.swift */; };
+		0A6F03F829C26DDC00EE9AE2 /* Exercise7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0A0B303B29C0E7E600C9D7A3 /* Exercise4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise4.swift; sourceTree = "<group>"; };
 		0A0B303D29C0E8E200C9D7A3 /* Exercise5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise5.swift; sourceTree = "<group>"; };
 		0A0B303F29C0ED3900C9D7A3 /* Exercise6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise6.swift; sourceTree = "<group>"; };
+		0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				0A0B303B29C0E7E600C9D7A3 /* Exercise4.swift */,
 				0A0B303D29C0E8E200C9D7A3 /* Exercise5.swift */,
 				0A0B303F29C0ED3900C9D7A3 /* Exercise6.swift */,
+				0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */,
 				0A0B302D29C0DF2300C9D7A3 /* Assets.xcassets */,
 				0A0B302F29C0DF2300C9D7A3 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0B302C29C0DF2300C9D7A3 /* Exercise1.swift in Sources */,
+				0A6F03F829C26DDC00EE9AE2 /* Exercise7.swift in Sources */,
 				0A0B303A29C0E51800C9D7A3 /* Exercise3.swift in Sources */,
 				0A0B303C29C0E7E600C9D7A3 /* Exercise4.swift in Sources */,
 				0A0B303E29C0E8E200C9D7A3 /* Exercise5.swift in Sources */,
