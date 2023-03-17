@@ -19,6 +19,7 @@ struct SymbolView: View {
             Text(symbolName)
                 .foregroundColor(color)
         }
+        .font(.title)
     }
 }
 

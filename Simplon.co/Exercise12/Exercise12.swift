@@ -9,9 +9,11 @@ import SwiftUI
 
 struct Exercise12: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text("SF Symbol weather list")
                 .font(.largeTitle)
+                .foregroundColor(.indigo)
+                .fontWeight(.semibold)
                 .padding()
             SymbolView(symbolName: "sun.min.fill", color: .blue)
             SymbolView(symbolName: "sun.max.fill", color: .gray)
