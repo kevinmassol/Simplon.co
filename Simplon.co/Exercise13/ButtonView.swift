@@ -9,9 +9,8 @@ import SwiftUI
 
 struct ButtonView: View {
     
-    @State var color: Color
+    var color: Color
     var labelText: String
-//    var sfSymbol: String
     
     @Binding var backGroundColor: Color
     
