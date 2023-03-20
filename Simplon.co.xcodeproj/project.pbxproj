@@ -21,6 +21,8 @@
 		0A5A0DCE29C466B700511558 /* Exercise13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A0DCD29C466B700511558 /* Exercise13.swift */; };
 		0A5A0DD129C469A200511558 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A0DD029C469A200511558 /* ButtonView.swift */; };
 		0A5A0DD529C4B5D000511558 /* Exercise5-bis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A0DD429C4B5D000511558 /* Exercise5-bis.swift */; };
+		0A5A0DD829C84EB000511558 /* Exercise17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A0DD729C84EB000511558 /* Exercise17.swift */; };
+		0A5A0DDB29C84F0B00511558 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A0DDA29C84F0B00511558 /* Weather.swift */; };
 		0A6F03F829C26DDC00EE9AE2 /* Exercise7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */; };
 		0A6F03FA29C3651000EE9AE2 /* Exercise7-bis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F03F929C3651000EE9AE2 /* Exercise7-bis.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,8 @@
 		0A5A0DCD29C466B700511558 /* Exercise13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise13.swift; sourceTree = "<group>"; };
 		0A5A0DD029C469A200511558 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		0A5A0DD429C4B5D000511558 /* Exercise5-bis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise5-bis.swift"; sourceTree = "<group>"; };
+		0A5A0DD729C84EB000511558 /* Exercise17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise17.swift; sourceTree = "<group>"; };
+		0A5A0DDA29C84F0B00511558 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7.swift; sourceTree = "<group>"; };
 		0A6F03F929C3651000EE9AE2 /* Exercise7-bis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise7-bis.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +91,7 @@
 				0A6F03F929C3651000EE9AE2 /* Exercise7-bis.swift */,
 				0A5A0DCA29C45F1200511558 /* Exercise12 */,
 				0A5A0DCF29C468F400511558 /* Exercise13 */,
+				0A5A0DD929C84EBC00511558 /* Exercise17 */,
 				0A0B302D29C0DF2300C9D7A3 /* Assets.xcassets */,
 				0A0B302F29C0DF2300C9D7A3 /* Preview Content */,
 			);
@@ -117,6 +122,15 @@
 				0A5A0DD029C469A200511558 /* ButtonView.swift */,
 			);
 			path = Exercise13;
+			sourceTree = "<group>";
+		};
+		0A5A0DD929C84EBC00511558 /* Exercise17 */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A0DD729C84EB000511558 /* Exercise17.swift */,
+				0A5A0DDA29C84F0B00511558 /* Weather.swift */,
+			);
+			path = Exercise17;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,11 +211,13 @@
 				0A0B303E29C0E8E200C9D7A3 /* Exercise5.swift in Sources */,
 				0A0B302A29C0DF2300C9D7A3 /* Simplon_coApp.swift in Sources */,
 				0A5A0DCE29C466B700511558 /* Exercise13.swift in Sources */,
+				0A5A0DDB29C84F0B00511558 /* Weather.swift in Sources */,
 				0A5A0DD529C4B5D000511558 /* Exercise5-bis.swift in Sources */,
 				0A0B303829C0E20D00C9D7A3 /* Exercise2.swift in Sources */,
 				0A5A0DD129C469A200511558 /* ButtonView.swift in Sources */,
 				0A0B304029C0ED3900C9D7A3 /* Exercise6.swift in Sources */,
 				0A5A0DC929C45EAF00511558 /* Exercise12.swift in Sources */,
+				0A5A0DD829C84EB000511558 /* Exercise17.swift in Sources */,
 				0A6F03FA29C3651000EE9AE2 /* Exercise7-bis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
