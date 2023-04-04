@@ -9,29 +9,25 @@ import SwiftUI
 
 struct Exercise7_bis: View {
     
-    @State var progress = 0.0
+    @State private var progress = 0.0
     
     var body: some View {
         VStack {
             ZStack {
                 Circle()
-                    .foregroundColor(.gray)
+                    .trim(to: 0.995)
+                    .stroke(Color(white: 0.85), lineWidth: 15)
                 Circle()
-                    .trim(from: 0, to: progress)
-                    .foregroundColor(.purple)
-                Circle()
-                    .frame(width: 325)
-                    .foregroundColor(.white)
-                Text("\(Int(progress)) %")
-                    .foregroundColor(.black)
+                    .trim(to: progress/100-0.005)
+                    .stroke(.purple, lineWidth: 15)
+                Text("\(progress, specifier: "%.f")%")
+                    .fontWeight(.bold)
                     .font(.title)
-                    .bold()
             }
-            HStack {
-                Slider(value: $progress, in: 0...100)
-                    .frame(width: 350)
-            }
+            Slider(value: $progress, in: 0...100)
+                .tint(.purple)
         }
+        .padding(40)
     }
 }
 
