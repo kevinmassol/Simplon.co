@@ -39,6 +39,7 @@
 		0ACC13B129C9A5130008ED8D /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13B029C9A5130008ED8D /* Teams.swift */; };
 		0ACC13B529C9A8D50008ED8D /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13B429C9A8D50008ED8D /* TeamsView.swift */; };
 		0ACC13B729C9A9070008ED8D /* TeamsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13B629C9A9070008ED8D /* TeamsDetailView.swift */; };
+		0AE7E8E52A017AF60056A971 /* Exercise8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7E8E42A017AF60056A971 /* Exercise8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		0ACC13B029C9A5130008ED8D /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
 		0ACC13B429C9A8D50008ED8D /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
 		0ACC13B629C9A9070008ED8D /* TeamsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsDetailView.swift; sourceTree = "<group>"; };
+		0AE7E8E42A017AF60056A971 /* Exercise8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				0A0B303F29C0ED3900C9D7A3 /* Exercise6.swift */,
 				0A6F03F729C26DDC00EE9AE2 /* Exercise7.swift */,
 				0A6F03F929C3651000EE9AE2 /* Exercise7-bis.swift */,
+				0AE7E8E42A017AF60056A971 /* Exercise8.swift */,
 				0A5A0DCA29C45F1200511558 /* Exercise12 */,
 				0A5A0DCF29C468F400511558 /* Exercise13 */,
 				0A5A0DD929C84EBC00511558 /* Exercise17 */,
@@ -296,6 +299,7 @@
 				0ACC13B129C9A5130008ED8D /* Teams.swift in Sources */,
 				0A0B302C29C0DF2300C9D7A3 /* Exercise1.swift in Sources */,
 				0A5A0DE729C8765F00511558 /* WeatherDetail.swift in Sources */,
+				0AE7E8E52A017AF60056A971 /* Exercise8.swift in Sources */,
 				0A6F03F829C26DDC00EE9AE2 /* Exercise7.swift in Sources */,
 				0A0B303A29C0E51800C9D7A3 /* Exercise3.swift in Sources */,
 				0ACC13A929C9A0FD0008ED8D /* Exercise22.swift in Sources */,
